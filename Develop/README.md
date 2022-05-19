@@ -1,31 +1,28 @@
-# ksal
-  
-    [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-    
+# README Generator
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   ## Description
-  askdlaskd
+  This project is a command-line applcation that generates a README file.
   ## Table of Contents
   - [Installation](#installation)
   - [Usage](#usage)
-  - [Credits](#credits)
   - [License](#license)
   - [Contributing](#contibuting)
   - [Tests](#tests)
   - [Questions](#questions)
   ## Installation
-  akdslkdsl
+  After forking/cloning, run 'npm init' to get the required packages.
   ## Usage
-  askdlaskd
+  Run "node index" in the terminal to begin generating the file. You will be prompted with questions to fill out the title, description, installation, usage, license, contributing, tests, and questions sections.
   
   ## License
-  This project is licensed under the terms of the Apache License 2.0
+  This project is licensed under the terms of the MIT License
   
   ## Contributing
-  asdkldkasl
+  Submit a pull request to make changes. 
 
   ## Tests
-  sakdlk
+  N/A
   ## Questions
-  GitHub: (https://www.github.com/asdasd)
+  GitHub: (https://www.github.com/ah-fang)
 
-  Email: undefined
+  Email: N/A

@@ -97,12 +97,12 @@ const promptUser = () => {
         //get contributing guidelines
         type:"input",
         name: "contributing",
-        message: "Please provide guidelines for contribution.(required)",
+        message: "How can other users contribute to this project?",
         validate: nameInput => {
         if (nameInput) {
                 return true;
             } else {
-                console.log("Please enter usage instructions!");
+                console.log("Please enter contribution instructions!");
                 return false;
             }
         } 
@@ -120,8 +120,8 @@ const promptUser = () => {
                 return false;
             }
         } 
-     },
-     {
+    },
+    {
         //get contact info
         type:"input",
         name: "username",
@@ -134,7 +134,21 @@ const promptUser = () => {
                 return false;
             }
         } 
-     }
+    },
+    {
+        //get email
+        type:"input",
+        name: "email",
+        message: "Enter a contact email. (Or N/A if you do not wish to provide one)",
+        validate: nameInput => {
+        if (nameInput) {
+                return true;
+            } else {
+                console.log("Please enter an email or N/A");
+                return false;
+            }
+        } 
+    }
  ])
 
 }
