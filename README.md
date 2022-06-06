@@ -4,7 +4,7 @@
 A command-line README generator. Respond to prompts to generate a complete README file including license badges and linked table of contents.
 
 ## Installation
-This project requires the nod epackage Inquirer. Run 'npm init' after forking/cloning to create the package.json file. If inquirer is not included, run 'npm install inquirer'.
+This project requires the node package Inquirer. Run 'npm init' after forking/cloning to create the package.json file. If inquirer is not included, run 'npm install inquirer'.
 To run the program, run 'node index'.
 
 ## Video Walkthrough
